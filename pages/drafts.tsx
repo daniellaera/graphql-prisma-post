@@ -2,9 +2,7 @@ import React from 'react';
 import DraftPosts from '../components/DraftPosts';
 
 const Drafts: React.FC = () => {
-  return (
-    <DraftPosts />
-  );
+  return <DraftPosts />;
 };
 
 export default Drafts;

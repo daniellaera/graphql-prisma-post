@@ -1,9 +1,7 @@
-import CreatePost from "../components/CreatePost"
+import CreatePost from '../components/CreatePost';
 
 const Create: React.FC = () => {
-    return (
-        <CreatePost />
-    )
-}
+  return <CreatePost />;
+};
 
-export default Create
+export default Create;

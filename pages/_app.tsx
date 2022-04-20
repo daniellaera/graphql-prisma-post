@@ -1,7 +1,7 @@
 import 'antd/dist/antd.css';
-import type { AppProps } from 'next/app'
-import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client'
-import { SessionProvider } from 'next-auth/react'
+import type { AppProps } from 'next/app';
+import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
+import { SessionProvider } from 'next-auth/react';
 import Layout from '../components/Layout';
 
 const client = new ApolloClient({
@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
         </Layout>
       </SessionProvider>
     </ApolloProvider>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
